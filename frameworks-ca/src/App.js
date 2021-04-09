@@ -1,19 +1,36 @@
-import './App.css';
-import Heading from '../src/components/Heading';
-import NavBar from '../src/components/Navbar'
-import Paragraph from '../src/components/Paragraph'
-import TabSection from './components/Tab';
+import './App.scss';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  NavLink
+} from "react-router-dom";
+import Home from '../src/Views/Home'
+import News from '../src/Views/News'
+import Contact from '../src/Views/Contact'
 
-function App() {
+
+
+
+const App=()=> {
   return (
     <>
-      <NavBar/>
-      <Heading content="We do YAY things"/>
-      <Paragraph />
-      <TabSection />
-      
-      </>
-        );
-}
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/news">
+          <News />
+        </Route>
+        <Route path="/contact">
+          <Contact/>
+        </Route>
+      </Switch>
+  </Router>
+  </>
+);
+  }
 
 export default App;
