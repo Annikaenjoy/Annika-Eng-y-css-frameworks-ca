@@ -1,29 +1,30 @@
-import '../App.scss';
-import Heading from '../components/Heading';
-import NavBar from '../components/Navbar'
-import Paragraph from '../components/Paragraph'
-import TabSection from '../components/Tab';
-import Footer from '../components/Footer';
-import CarouselImages from '../components/HeaderImage';
-import AccordionSection from '../components/Accordion';
+import "../App.scss";
+import Heading from "../components/Heading";
+import NavBar from "../components/Navbar";
+import Paragraph from "../components/Paragraph";
+import TabSection from "../components/Tab";
+import CarouselImages from "../components/HeaderImage";
+import AccordionSection from "../components/Accordion";
 
+// Footer
+import Footer from "../components/Footer";
 
-const Home=()=> {
+const Home = () => {
   return (
     <>
-      <NavBar/>
-      <CarouselImages/>
-      <Heading content="We do YAY things"/>
+      <NavBar />
+      <CarouselImages />
+      <Heading content="We do YAY things" />
       <Paragraph />
       <div className="d-md-none">
-      <AccordionSection/>
+        <AccordionSection />
       </div>
       <div className="d-none d-md-block">
-      <TabSection />
+        <TabSection />
       </div>
-      <Footer/>
-      </>
-        );
-}
+      <Footer />
+    </>
+  );
+};
 
 export default Home;
