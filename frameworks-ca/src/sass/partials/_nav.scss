@@ -3,14 +3,29 @@
     font-family: $font-secondary;
     color: $color-black;
     margin-right: 1rem;
-    padding: 10px;
+    padding: 5px;
+    margin-bottom: 5px;
   }
-  // &__link--active {
-  //   background-color: $color-white;
-  // }
+  &__link:hover {
+    background: $color-white;
+    text-decoration: none;
+  }
+  &__link.active {
+    background-color: $color-white;
+  }
 }
 .navbarBrand {
   font-family: "Playfair Display", serif;
   font-size: 20px;
   color: $color-contrast;
+}
+@media (min-width: 768px) {
+  .nav {
+    &__link:hover {
+      border-radius: 3px;
+    }
+    &__link.active {
+      border-radius: 3px;
+    }
+  }
 }

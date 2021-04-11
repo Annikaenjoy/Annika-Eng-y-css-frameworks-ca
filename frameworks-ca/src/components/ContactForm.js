@@ -6,7 +6,7 @@ import FormControl from "react-bootstrap/FormControl";
 
 const FormContent = () => {
   return (
-    <Form>
+    <Form className="form">
       <Form.Group controlId="formBasicText">
         <Form.Label>Name</Form.Label>
         <Form.Control />

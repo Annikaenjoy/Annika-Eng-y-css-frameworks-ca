@@ -13,15 +13,15 @@ const Contact = () => {
     <>
       <div className="wrapper">
         <NavBar />
-        <Container xs={10}>
+        <Container>
           <Heading content="Submit your details" />
           <Container>
             <Row>
               <Col md={6}>
-                <FormContent />
+                <ContactInformation />
               </Col>
               <Col md={6}>
-                <ContactInformation />
+                <FormContent />
               </Col>
             </Row>
           </Container>

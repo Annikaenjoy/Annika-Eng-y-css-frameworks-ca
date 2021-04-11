@@ -1,3 +1,13 @@
+.form {
+  background: $color-lightgrey;
+  padding: 30px;
+  border-radius: 3px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.05);
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  color: $color-darkgrey;
+}
+
 .btn-darkgrey {
   width: 100%;
   border-radius: 4px;
