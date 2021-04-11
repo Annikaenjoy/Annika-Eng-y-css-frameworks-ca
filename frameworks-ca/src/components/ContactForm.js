@@ -28,7 +28,7 @@ const FormContent = () => {
           label="Allow us to sell your personal details to whomever we want"
         />
       </Form.Group>
-      <Button variant="primary" type="submit">
+      <Button variant="darkgrey" type="submit">
         Submit
       </Button>
     </Form>

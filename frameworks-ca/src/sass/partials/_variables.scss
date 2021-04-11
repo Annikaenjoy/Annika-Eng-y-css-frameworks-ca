@@ -1,12 +1,37 @@
+// Custom colors
+$color-secondary: #c7c7c7;
+$color-primary: #e92569;
+$color-light: #efefef;
+
+$color-gradient: radial-gradient(
+  circle,
+  rgba(255, 255, 255, 1) 0%,
+  rgba(229, 229, 229, 1) 100%
+);
+
+$body-bg: $color-gradient;
+
+// Custom navbar-brand-color
+$navbar-light-brand-color: $color-primary;
+$navbar-light-brand-hover-color: $color-primary;
+
 // font
 $font-primary: "Playfair Display", serif;
 $font-secondary: "Lato", sans-serif;
 
 // colors
 $color-black: #0a0a0a;
-$color-white: #fff;
+$color-white: #ffffff;
 $color-lightgrey: #efefef;
 $color-contrast: #e92569;
-$color-font: #767676;
+$color-darkgrey: #767676;
 $color-background: #e5e5e5;
 $color-detail: #c7c7c7;
+$color-border: #d1d1d1;
+
+// Bootstrapm colors
+$theme-colors: (
+  "darkgrey": $color-darkgrey,
+  "primary": $color-primary,
+  "light": $color-light,
+);

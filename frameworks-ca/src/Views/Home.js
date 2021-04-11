@@ -6,8 +6,6 @@ import TabSection from "../components/Tab";
 import CarouselImages from "../components/HeaderImage";
 import AccordionSection from "../components/Accordion";
 import Container from "react-bootstrap/Container";
-
-// Footer
 import Footer from "../components/Footer";
 
 const Home = () => {

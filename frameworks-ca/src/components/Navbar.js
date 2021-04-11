@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
-import Form from "react-bootstrap/Form";
+import FormControl from "react-bootstrap/FormControl";
+import InputGroup from "react-bootstrap/InputGroup";
 import Nav from "react-bootstrap/Nav";
 import Button from "react-bootstrap/Button";
 import { NavLink } from "react-router-dom";
@@ -25,10 +26,12 @@ const NavBar = () => {
               Contact
             </NavLink>
           </Nav>
-          <Form inline>
-            <Form.Control type="text" placeholder="Search" />
-            <Button variant="primary">Search</Button>
-          </Form>
+          <InputGroup>
+            <FormControl placeholder="Search" />
+            <InputGroup.Append>
+              <Button variant="primary">Go</Button>
+            </InputGroup.Append>
+          </InputGroup>
         </Navbar.Collapse>
       </Navbar>
     </>

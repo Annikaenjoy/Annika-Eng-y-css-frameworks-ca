@@ -1,0 +1,36 @@
+.footer {
+  flex-shrink: 0;
+  font-family: $font-secondary;
+  background-color: $color-white;
+  color: $color-darkgrey;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  padding: 0.5em;
+  margin-top: 100px;
+
+  // Vimeo/ Youtube
+  &__item {
+    text-align: center;
+    flex-direction: column;
+  }
+  // @
+  &__item--start {
+    text-align: left;
+  }
+  // Copyright
+  &__item--end {
+    text-align: right;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+    &__item {
+      text-align: left;
+    }
+    &__item--start {
+      text-align: center;
+    }
+  }
+}

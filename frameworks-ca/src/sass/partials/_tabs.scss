@@ -1,0 +1,26 @@
+.tab-content {
+  background: $color-white;
+  border: 1px solid $color-border;
+  border-radius: 1px 1px 1px 1px;
+  box-shadow: 0 16px 22px rgba(0, 0, 0, 0.05);
+  margin-top: -1px;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: $color-darkgrey;
+  background-color: $color-white;
+  border-bottom: none;
+  border-color: $color-border;
+}
+
+.tabContainer {
+  display: flex;
+
+  &__row {
+    flex-direction: row;
+  }
+  &__column {
+    flex-direction: column-reverse;
+  }
+}
