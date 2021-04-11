@@ -2,7 +2,7 @@ import React from "react";
 
 const Paragraph = () => {
   return (
-    <p>
+    <p className="paragraph">
       Nam tincidunt, sapien nec congue porta, tellus risus ullamcorper mi, a
       rutrum justo eros pretium libero. Nullam vel enim id mauris eleifend
       finibus et ac orci. Aliquam metus massa, aliquam quis arcu sit amet,

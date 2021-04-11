@@ -1,0 +1,9 @@
+.carousel-indicators li {
+  width: $carousel-indicator-width;
+  height: $carousel-indicator-height;
+  background: $color-white;
+}
+
+.carousel-indicators .active {
+  background-color: $color-contrast;
+}

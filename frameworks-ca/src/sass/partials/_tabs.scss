@@ -13,14 +13,19 @@
   border-bottom: none;
   border-color: $color-border;
 }
-
-.tabContainer {
-  display: flex;
-
-  &__row {
-    flex-direction: row;
-  }
-  &__column {
-    flex-direction: column-reverse;
-  }
+.share {
+  font-family: "Late", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 10px;
 }
+// .tabContainer {
+//   display: flex;
+
+//   &__row {
+//     flex-direction: row;
+//   }
+//   &__column {
+//     flex-direction: column-reverse;
+//   }
+// }

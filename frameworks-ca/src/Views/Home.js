@@ -14,7 +14,7 @@ const Home = () => {
       <div className="wrapper">
         <NavBar />
         <CarouselImages />
-        <Container xs={10}>
+        <Container>
           <Heading content="We do YAY things" />
           <Paragraph />
           <div className="d-md-none">

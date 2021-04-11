@@ -1,6 +1,9 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 const ContentCards = (props) => {
   return (
@@ -11,7 +14,7 @@ const ContentCards = (props) => {
         <Card.Text className="product__description">
           Nunc malesuada eget est fringilla dapibus.
         </Card.Text>
-        <Button variant="primary">More</Button>
+        <Button variant="contrast">More</Button>
       </Card.Body>
     </Card>
   );

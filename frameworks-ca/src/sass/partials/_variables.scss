@@ -11,6 +11,10 @@ $color-gradient: radial-gradient(
 
 $body-bg: $color-gradient;
 
+// custom carousel indicator
+$carousel-indicator-width: 30px;
+$carousel-indicator-height: 30px;
+
 // Custom navbar-brand-color
 $navbar-light-brand-color: $color-primary;
 $navbar-light-brand-hover-color: $color-primary;
@@ -31,6 +35,8 @@ $color-border: #d1d1d1;
 
 // Bootstrapm colors
 $theme-colors: (
+  "contrast": $color-contrast,
+  "detail": $color-detail,
   "darkgrey": $color-darkgrey,
   "primary": $color-primary,
   "light": $color-light,
