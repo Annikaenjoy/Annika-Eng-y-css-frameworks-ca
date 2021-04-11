@@ -1,0 +1,14 @@
+// Custom colors
+$color-secondary: #c7c7c7;
+$color-primary: #e92569;
+$color-light: #efefef;
+
+// Custom navbar-brand-color
+$navbar-light-brand-color: $color-primary;
+$navbar-light-brand-hover-color: $color-primary;
+
+//bootstrap colors
+$theme-colors: (
+  "primary": $color-primary,
+  "light": $color-light,
+);

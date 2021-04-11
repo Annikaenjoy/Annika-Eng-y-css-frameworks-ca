@@ -1,0 +1,14 @@
+.nav {
+  &__link {
+    font-family: $font-secondary;
+    color: $color-black;
+    margin-right: 1rem;
+    padding: 10px;
+  }
+  // &__link--active {
+  //   background-color: $color-white;
+  // }
+}
+.navbarBrand {
+  color: $color-contrast;
+}

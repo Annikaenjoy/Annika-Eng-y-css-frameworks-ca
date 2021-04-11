@@ -9,23 +9,25 @@ const NavBar = () => {
   return (
     <>
       <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="/">The YAY Company</Navbar.Brand>
+        <Navbar.Brand className="navbarBrand" href="/">
+          The YAY Company
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
-            <NavLink exact to="/">
+          <Nav className="nav" className="mr-auto">
+            <NavLink className="nav__link" exact to="/">
               Home
             </NavLink>
-            <NavLink to="/news">News</NavLink>
-            <NavLink to="/contact">Contact</NavLink>
+            <NavLink className="nav__link" to="/news">
+              News
+            </NavLink>
+            <NavLink className="nav__link" to="/contact">
+              Contact
+            </NavLink>
           </Nav>
           <Form inline>
-            <Form.Control
-              type="text"
-              placeholder="Search"
-              className="mr-sm-2"
-            />
-            <Button variant="outline-success">Search</Button>
+            <Form.Control type="text" placeholder="Search" />
+            <Button variant="primary">Search</Button>
           </Form>
         </Navbar.Collapse>
       </Navbar>
